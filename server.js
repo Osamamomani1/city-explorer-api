@@ -114,7 +114,7 @@ function moviesHandler(req, res) {
 
 };
 
-//http://localhost:8000/weather?city_name=Amman
+
 
 // app.get('/weather', (req, res) => {
   
@@ -139,7 +139,7 @@ function moviesHandler(req, res) {
 //   }
 // })
 
-
+//http://localhost:8000/weather?city_name=Amman
 
 app.get('*', (req, res) => {
   res.status(404).send('Something went wrong');
